@@ -2,7 +2,7 @@
 
 int main() {
 
-int x ;
+int x;
 
 printf("Your loan:");
 
