@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main() {
+
+int x ;
+
+printf("Your loan:");
+
+scanf("%d",&x);
+
+int  y;
+
+printf("Number of months you will be paying:");
+
+scanf("%d",&y);
+
+float z;
+
+printf("Your bank's interest rate from percent:");
+
+scanf("%f",&z);
+
+float total_monthly ;
+
+total_monthly=(x/y)*((100+z)/100);
+
+printf("Your monthly payment is %f",total_monthly);
+
+return 0;
+
+}
